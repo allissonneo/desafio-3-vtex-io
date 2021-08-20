@@ -1,0 +1,11 @@
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout#home"
+    ],
+    "props": {
+      "blockClass": "storehome"
+    }
+  }
+}
+

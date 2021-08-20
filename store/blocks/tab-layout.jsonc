@@ -1,0 +1,206 @@
+{
+    
+    "tab-layout#home": {
+        "children": [
+            "tab-list#home",
+            "tab-content#home"
+        ],
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "0"
+        }
+    },
+    //palmeiras, signos, divertidos, 7 maravilhas, guerreiros, album1, album2, album3
+    "tab-list#home": {
+        "children": [
+            "slider-layout#tab-layout"
+        ]
+    },
+
+
+    "tab-list.item#home": {
+        "props": {
+            "tabId": "0",
+            "label": "HOME"
+        }
+    },
+    "tab-list.item#home1": {
+        "props": {
+            "tabId": "1",
+            "label": "PROMOÇÃO"
+        }
+    },
+    "tab-list.item#home2": {
+        "props": {
+            "tabId": "2",
+            "label": "CORINTHIAS"
+        }
+    },
+    "tab-list.item#home3": {
+        "props": {
+            "tabId": "3",
+            "label": "PALMEIRAS"
+        }
+    },
+    "tab-list.item#home4": {
+        "props": {
+            "tabId": "4",
+            "label": "SIGNOS"
+        }
+    },
+    "tab-list.item#home5": {
+        "props": {
+            "tabId": "5",
+            "label": "DIVERTIDOS"
+        }
+    },
+    "tab-list.item#home6": {
+        "props": {
+            "tabId": "6",
+            "label": "7 MARAVILHAS"
+        }
+    },
+    "tab-list.item#home7": {
+        "props": {
+            "tabId": "7",
+            "label": "GUERREIROS"
+        }
+    },
+    "tab-list.item#home8": {
+        "props": {
+            "tabId": "8",
+            "label": "AlBÚM 1"
+        }
+    },
+    "tab-list.item#home9": {
+        "props": {
+            "tabId": "9",
+            "label": "ALBÚM 2"
+        }
+    },
+    "tab-list.item#home10": {
+        "props": {
+            "tabId": "10",
+            "label": "ALBÚM 3"
+        }
+    },  
+
+
+
+    //conteudo - menu
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#home",
+            "tab-content.item#home1",
+            "tab-content.item#home2",
+            "tab-content.item#home3",
+            "tab-content.item#home4",
+            "tab-content.item#home5",
+            "tab-content.item#home6",
+            "tab-content.item#home7",
+            "tab-content.item#home8",
+            "tab-content.item#home9",
+            "tab-content.item#home10"
+        ]
+    },
+    "tab-content.item#home": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home"
+        ], //BOTAR CONTEUDO
+        "props": {
+            "tabId": "0"
+        }
+    },
+    "tab-content.item#home1": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home1"
+        ], //BOTAR CONTEUDO
+        "props": {
+            "tabId": "1"
+        }
+    },
+    "tab-content.item#home2": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home2"
+        ],
+        "props": {
+            "tabId": "2"
+        }
+    },
+    "tab-content.item#home3": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home3"
+        ],
+        "props": {
+            "tabId": "3"
+        }
+    },
+    "tab-content.item#home4": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home4"
+        ],
+        "props": {
+            "tabId": "4"
+        }
+    },
+    "tab-content.item#home5": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home5"
+        ],
+        "props": {
+            "tabId": "5"
+        }
+    },
+    "tab-content.item#home6": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home6"
+        ],
+        "props": {
+            "tabId": "6"
+        }
+    },
+    "tab-content.item#home7": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home7"
+        ],
+        "props": {
+            "tabId": "7"
+        }
+    }, //guerreiro
+    //albuns
+    "tab-content.item#home8": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home8"
+        ],
+        "props": {
+            "tabId": "8"
+        }
+    },
+    "tab-content.item#home9": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home9"
+        ],
+        "props": {
+            "tabId": "9"
+        }
+    },
+    "tab-content.item#home10": {
+        "children": [
+            "slider-layout#text-test",
+            "list-context.product-list#home10"
+        ],
+        "props": {
+            "tabId": "10"
+        }
+    }
+}

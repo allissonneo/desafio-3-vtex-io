@@ -1,0 +1,10 @@
+
+.listContainer {
+    background-color: #212121;
+    justify-content: start;
+}
+.contentItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

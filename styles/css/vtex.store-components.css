@@ -1,0 +1,33 @@
+.searchBarContainer {
+    background-color: #212121;
+    width: 600px;
+}
+
+.autoCompleteOuterContainer{
+    background-color: #212121;
+  
+}
+.imageElement{
+   /* margin-top: 0.19%;
+   margin-left: 60%;
+   margin-right: 60%; */
+   margin-bottom: 4%;
+   width: 912px;
+   height: 274px;
+   border-radius: 30px;
+  
+   
+}
+.searchIcon{
+    color: #fff;
+}
+@media (max-width: 1024px) {
+    .logoLink, .logoContainer,.sizeDesktop, .logoImage {
+        visibility: hidden;    
+    }
+}
+.logoLink, .logoContainer,.sizeDesktop, .logoImage{
+
+    width: 100%;
+    max-width: 150px;
+}

@@ -1,0 +1,51 @@
+.imageElement {
+    border-radius: 30px;
+}
+
+.sliderLayoutContainer--banner{
+    width: 50%;
+}
+.sliderLayoutContainer--product{
+    width:51%;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+.sliderTrackContainer--product{
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+}
+.slideChildrenContainer--banner{
+    /* display: flex; */
+}
+.sliderLayoutContainer--slideArrows{
+    margin-right: 30px;
+    width: 100%;
+}
+.paginationDot--slideArrows{
+    visibility: hidden;
+}
+.paginationDotsContainer--banner{
+    align-self: center;
+    margin-left: 40%;
+    width: 20%;
+}
+
+.sliderArrows {
+    position: absolute;
+    bottom: -0.8%;
+    margin: 0.5%;
+}
+.caretIcon {
+    height: 18px;
+    color: #fff;
+}
+
+.paginationDot--isActive {
+    background-color: #59ff80;
+}
+.paginationDotsContainer {
+    position: absolute;
+    bottom: -0.8%;
+}
