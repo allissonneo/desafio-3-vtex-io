@@ -141,7 +141,7 @@
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
       "muted-1": "#727273",
-      "muted-2": "#212121",
+      "muted-2": "#fff",
       "muted-3": "#cacbcc",
       "muted-4": "#212121",
       "muted-5": "#f2f4f5"
@@ -221,7 +221,7 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#3f3f40",
+      "base": "#fff",
       "base--inverted": "#59ff80",
       "action-primary": "#59ff80",
       "action-secondary": "#59ff80",

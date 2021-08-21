@@ -1,0 +1,155 @@
+{
+  "search-result-layout.customQuery#corinthians": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "corinthias",
+        "mapField": "ft"
+      },
+      "preventRouteChange": true
+    },
+    "blocks": [
+      "search-result-layout.desktop#corinthians",
+      "search-result-layout.mobile#corinthians"
+    ]
+  },
+  "search-result-layout.desktop#corinthians": {
+    "children": [
+      "search-content#corinthians"
+    ],
+    "props": {
+      "PreventRouteChange": true
+    }
+  },
+  "search-result-layout.mobile#corinthians": {
+    "children": [
+      "search-content#corinthians"
+    ],
+    "props": {
+      "PreventRouteChange": true
+    }
+  },
+  "search-content#corinthians": {
+    "blocks": [
+      "gallery#corinthians",
+      "not-found"
+    ]
+  },
+  "gallery#corinthians": {
+    "props": {
+      "category": "20",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummaryCorinthians",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummaryCorinthians",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        }
+      ],
+      "ListSummaryCorinthians": "product-summary.shelf#corinthians",
+      "GridSummaryCorinthians": "product-summary.shelf#corinthians"
+    }
+  },
+  "product-summary.shelf#corinthians": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-add-to-list-button",
+      "add-to-cart-button"
+    ]
+  },
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "palmeiras",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#palmeiras",
+      "search-result-layout.mobile#palmeiras"
+    ]
+  },
+  "search-result-layout.desktop#palmeiras": {
+    "children": [
+      "search-content#palmeiras"
+    ],
+    "props": {
+      "PreventRouteChange": true
+    }
+  },
+  "search-result-layout.mobile#palmeiras": {
+    "children": [
+      "search-content#palmeiras"
+    ],
+    "props": {
+      "PreventRouteChange": true
+    }
+  },
+  "search-content#palmeiras": {
+    "blocks": [
+      "gallery#palmeiras",
+      "not-found"
+    ]
+  },
+  "gallery#palmeiras": {
+    "props": {
+      "category": "20",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummaryPalmeiras",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummaryPalmeiras",
+          "itemsPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 1,
+            "phone": 1
+          }
+        }
+      ],
+      "ListSummaryPalmeiras": "product-summary.shelf#palmeiras",
+      "GridSummaryPalmeiras": "product-summary.shelf#palmeiras"
+    }
+  },
+  "product-summary.shelf#palmeiras": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-add-to-list-button",
+      "add-to-cart-button"
+    ]
+  }
+}

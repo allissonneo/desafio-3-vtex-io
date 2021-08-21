@@ -1,17 +1,18 @@
 {
-    "slider-layout#text-test": {
+    "slider-layout#banner": {
         "props": {
             "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,
                 "phone": 1
-            },"autoplay": {
-                "timeout": 5000,
-                "stopOnHover": true
-            },
-            "infinite": false,
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "banner"
+                },"autoplay": {
+                    "timeout": 5000,
+                    "stopOnHover": true
+                },
+                "infinite": false,
+                "showNavigationArrows": "desktopOnly",
+                "blockClass": "banner",
+                "horizontalAlignment": "middle"
         },
         "children": [
             "image#banner1",
@@ -28,30 +29,4 @@
         "props": {
             "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e"
         }
-    },
-    "slider-layout#tab-layout": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 10,
-                "tablet": 1,
-                "phone": 1
-            },
-            "blockClass": "slideArrows"
-        },
-        "children": [
-            "tab-list.item#home",
-            "tab-list.item#home1",
-            "tab-list.item#home2",
-            "tab-list.item#home3",
-            "tab-list.item#home4",
-            "tab-list.item#home5",
-            "tab-list.item#home6",
-            "tab-list.item#home7",
-            "tab-list.item#home8",
-            "tab-list.item#home9",
-            "tab-list.item#home10"
-        ]
-        
-    }
-}
-
+    }}

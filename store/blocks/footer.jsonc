@@ -1,20 +1,67 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      // "image"
-    ]
-  }
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
+        ]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "sticky-layout#footer-desktop"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer-mobile"
+        ]
+    },
+    "sticky-layout#footer-desktop": {
+        "props": {
+            "blockClass": "sticky-header",
+            "position": "bottom",
+            "verticalSpacing": 0
+        },
+        "children": [
+            "flex-layout.row#footer-desktop"
+        ]
+    },
+    "flex-layout.row#footer-desktop": {
+        "children": [
+            "social-networks",
+            "rich-text#dev"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "social-networks"
+        ]
+    },
+    "social-networks": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://www.linkedin.com/in/allisson-neo/",
+                    "name": "Linkedin"
+                }
+            ]
+        }
+    },
+    "rich-text#dev": {
+        "props": {
+            "text": "Desenvolvido por Allisson Néo - Durante a Fase 2 do Hiring Coders",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-6"
+        }
+    }
 }

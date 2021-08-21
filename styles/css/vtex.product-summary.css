@@ -1,6 +1,9 @@
-/* .element{
-    width: 100%;
+.brandName, .productBrand {
+    font-weight: 600;
+    font-size: 18px;
+    color: #59ff80 !important;
 }
-.clearLink{
-    width: 100%;
-} */
+.element{
+    border-radius: 10px;
+    border: 3px solid;
+}

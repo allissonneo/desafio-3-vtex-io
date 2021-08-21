@@ -1,10 +1,11 @@
 {
   "store.home": {
     "blocks": [
-      "tab-layout#home"
+      // "slider-layout#text-test"
+      // "search-result-layout.customQuery#home"
     ],
     "props": {
-      "blockClass": "storehome"
+      
     }
   }
 }

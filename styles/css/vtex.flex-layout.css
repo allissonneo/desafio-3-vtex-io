@@ -1,8 +1,8 @@
 .flexRowContent {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     background-color: #212121;
-
 }
 .flexRowContent--main-header-mobile
 {
