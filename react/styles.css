@@ -57,17 +57,6 @@
 
 @media (max-width: 480px) {
   .Container {
-      height: 55vh;
+    display: none;
   }
-  .HeadingTitulo {
-      font-size: 1rem;
-  }
-  .Formulario {
-      width: 250px;
-  }
-  .inputForms,
-  .inputButton {
-      width: 200px;
-  }
-  
 }
