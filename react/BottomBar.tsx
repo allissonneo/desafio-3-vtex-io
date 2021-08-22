@@ -23,7 +23,10 @@ const Navigation = () => {
             alt=""
           />
         </a>
-        <a className="IconBottom" href="/">
+        <a
+          className="IconBottom"
+          href="https://api.whatsapp.com/send?phone=5588996600351&text=Ol%C3%A1%2C%20poderia%20me%20ajudar%3F"
+        >
           <img
             src="https://img.icons8.com/material-outlined/48/ffffff/whatsapp--v1.png"
             alt=""
