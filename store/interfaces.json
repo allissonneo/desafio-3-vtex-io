@@ -1,0 +1,6 @@
+{
+  "navigation": {
+    "component": "BottomBar"
+  },
+  "appform": { "component": "AppForm" }
+}

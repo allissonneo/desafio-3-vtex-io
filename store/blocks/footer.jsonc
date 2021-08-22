@@ -30,8 +30,8 @@
     },
     "flex-layout.row#footer-desktop": {
         "children": [
-            "social-networks",
-            "rich-text#dev"
+            "navigation"
+
         ],
         "props": {
             "horizontalAlign": "center",
@@ -43,25 +43,7 @@
     },
     "flex-layout.row#footer-mobile": {
         "children": [
-            "social-networks"
+            "navigation"
         ]
-    },
-    "social-networks": {
-        "props": {
-            "socialNetworks": [
-                {
-                    "url": "https://www.linkedin.com/in/allisson-neo/",
-                    "name": "Linkedin"
-                }
-            ]
-        }
-    },
-    "rich-text#dev": {
-        "props": {
-            "text": "Desenvolvido por Allisson Néo - Durante a Fase 2 do Hiring Coders",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-6"
-        }
     }
 }

@@ -19,6 +19,7 @@
     "tab-content#home": {
         "children": [
             "slider-layout#banner",
+            "appform",
             "tab-content.item#home1",
             "tab-content.item#home2",
             "tab-content.item#home3",
@@ -27,6 +28,11 @@
             "tab-content.item#home6",
             "tab-content.item#home7"
         ]
+    },
+    "appform": {
+        "props":{
+            "blockClass": "appFormBlock"
+        }
     },
     "tab-list.item#home1": {
         "props": {
